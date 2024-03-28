@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Cédric</h1>
 
 - 🔭 I’m currently working on [Webserv](https://github.com/CMY42/Webserv)
-- 🤝 Last project was [Cub3D](https://github.com/CMY42/cub3D)
+- 🤝 Last project I did was [Cub3D](https://github.com/CMY42/cub3D)
 - 🌱 I’m currently learning **C, C++, ...**
 
 
