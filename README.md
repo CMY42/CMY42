@@ -17,6 +17,4 @@
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CMY42&theme=default" height="180em" />
 </div>
 
-<img src="https://raw.githubusercontent.com/CMY42/CMY42/output/snake.svg" alt="Snake animation" />
-
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
