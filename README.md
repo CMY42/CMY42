@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Cédric</h1>
+<h1 align="center">Hi 👋, I'm Cédric a student at 42 Lausanne</h1>
 
 - 🔭 I’m currently working on [Webserv](https://github.com/CMY42/Webserv)
 - 🤝 Last project I did was [Cub3D](https://github.com/CMY42/cub3D)
