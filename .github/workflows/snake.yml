@@ -33,11 +33,15 @@ jobs:
             return response.data;
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          
       - name: Determine palette
         id: determine_palette
-        run: echo "::set-output name=palette::$(echo ${{ steps.get_user_theme.outputs.data.theme === 'dark' ? 'github-dark' : 'github-light' }})"
+        run: |
+          echo "palette=$(echo ${data_theme})"
+          echo "::set-output name=palette::$(echo ${data_theme})"
         shell: bash
+        env:
+          data_theme: ${{ steps.get_user_theme.outputs.data.theme }}
 
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
