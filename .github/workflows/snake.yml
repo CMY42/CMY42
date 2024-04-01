@@ -21,12 +21,26 @@ jobs:
       - name: Set up the GitHub user name
         run: echo "GITHUB_USER_NAME=cmy42" >> $GITHUB_ENV
 
-      - name: generate snake.svg
+      - name: Get user's theme preference
+        id: get_user_theme
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const response = await github.rest.users.getByUsername({
+              username: process.env.GITHUB_USER_NAME
+            });
+            console.log(response.data);
+            return response.data;
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake.svg
+        id: generate_snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ env.GITHUB_USER_NAME }}
-          outputs: dist/snake.svg?palette=github-dark
-
+          outputs: dist/snake.svg
+          palette: ${{ steps.get_user_theme.outputs.data.theme === 'dark' ? 'github-dark' : 'github-light' }}
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
