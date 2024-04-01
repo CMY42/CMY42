@@ -19,7 +19,7 @@
 
 <img src="https://raw.githubusercontent.com/CMY42/CMY42/output/snake.svg" alt="Snake animation" />
 
-<div align="center" style="border: 1px solid black; padding: 10px; margin-top: 10px;">
+<div align="center">
   <p>A programmer is a mix between a lawyer and a plumber</p>
 </div>
 
