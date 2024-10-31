@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Cédric a student at 42 Lausanne</h1>
 
-- 🔭 I’m currently working on [Inception](https://github.com/CMY42/Inception)
-- 🤝 Last project I did was [Cub3D](https://github.com/CMY42/cub3D)
+- 🔭 I’m currently working on [Ft_transcendence](https://github.com/CMY42/Ft_transcendance)
+- 🤝 Last project I did was [Inception](https://github.com/CMY42/Inception)
 - 🌱 I’m currently learning **C, C++, ...**
 
 
