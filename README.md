@@ -4,7 +4,7 @@
 - 🤝 Last project I did was [Ft_transcendence](https://github.com/CMY42/Ft_transcendance)
 - 🌱 I’m currently learning **C, C++, Python, ...**
 
-I took a break from coding activity on GitHub due to a major house renovation project. Now available, actively seeking developer positions, and currently learning new programming languages.
+I took a break from GitHub activity since late December 2024 due to a personal renovation project. Now available, actively seeking developer positions, and currently learning new programming languages.
 
 
 </div><h3 align="left">Languages and Tools:</h3>
