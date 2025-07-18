@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Cédric, a 42 Lausanne Common Core graduate, passionate about software development and continuous learning.</h1>
+<h1 align="center">Hi 👋, I'm Cédric, a 42 Lausanne Common Core graduate.</h1>
 
 - 🔭 I’m currently working on Python
 - 🤝 Last project I did was [Ft_transcendence](https://github.com/CMY42/Ft_transcendance)
